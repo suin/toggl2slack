@@ -1,3 +1,6 @@
+# Toggl2Slack
+
+Post Toggl timer entries to Slack channel.
 
 ## Installation
 
@@ -16,4 +19,10 @@ Copy and paste API tokens
 	"SlackChannel": "#times_suin",
   "TogglToken": "00000000000000000000000000000000"
 }
+```
+
+## Build App
+
+```
+make bundle
 ```
